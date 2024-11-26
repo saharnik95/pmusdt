@@ -27,7 +27,7 @@ export default function App() {
 
           <div className="flex flex-col min-h-screen items-center w-full justify-between bg-primary-background">
             <Header />
-            <main className="flex  flex-1 w-full justify-center items-center max-w-[1140px] mx-auto">
+            <main className="flex  flex-1 w-full justify-center  max-w-[1140px] mx-auto">
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/login" element={<Login />} />

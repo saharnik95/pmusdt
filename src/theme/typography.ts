@@ -104,6 +104,17 @@ const typography: TypographyOptions = {
       lineHeight: 1.29,
     }
   ),
+  PH: createResponsiveTypography(
+    {
+      fontSize: "14px",
+      fontWeight: 700,
+      lineHeight: 1.22,
+    },
+    {
+      fontSize: "18px",
+      lineHeight: 1.29,
+    }
+  ),
   FT: createResponsiveTypography(
     {
       fontSize: "12px",

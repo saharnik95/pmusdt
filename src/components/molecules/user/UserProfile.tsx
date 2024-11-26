@@ -61,7 +61,7 @@ export default function UserProfile() {
   };
 
   return (
-    <div className="flex flex-col   bg-form-background lg:pt-[38px] lg:pb-[45px] lg:w-[850px]  lg:px-[181px]  rounded-[20px]">
+    <div className="flex flex-col   bg-form-background lg:pt-[20px] lg:pb-[27px] lg:w-[850px]  lg:px-[181px]  rounded-[20px]">
       <Typography
         className="text-white flex justify-start w-full text-start"
         variant="FH"
